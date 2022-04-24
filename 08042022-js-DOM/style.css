@@ -1,0 +1,36 @@
+h2{
+    margin: 0 auto;
+    padding: 0;
+    text-align: start;
+
+}
+
+.item{
+width: 100%;
+height: 50px;
+color: black;
+font-size: large;
+
+margin: 0;
+padding: 0;
+}
+
+.blueBackgroud{
+
+    background-color: blue;
+
+
+}
+.redBackgroud{
+
+    background-color: red;
+}
+.yellowBackground{
+
+    background-color: yellow;
+
+}
+.brownBackground{
+
+    background-color: brown;
+}

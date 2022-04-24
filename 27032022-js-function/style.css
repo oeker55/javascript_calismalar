@@ -1,0 +1,20 @@
+label {
+    background-color:blanchedalmond ;
+  
+
+}
+.container{
+    background-color: azure;
+    border: 1px solid black;
+ text-align: center;
+
+}
+.alanHesabi{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:3rem;
+
+
+}

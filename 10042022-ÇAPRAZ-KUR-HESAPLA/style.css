@@ -1,0 +1,79 @@
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+    min-width: 400px;
+    background-color: #FAFDD6;
+    border: 2px solid gray;
+    border-radius: 3%;}
+.header{
+    margin-top: 4rem;
+    
+    
+
+    text-align: center;
+}
+.program{
+   
+
+    
+    
+
+    display: flex;
+    justify-content: center;
+}
+.hesaplama{
+    background-color: #8FBDD3;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+        border: 2px solid gray;
+        border-radius: 3%;
+   
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.kurHesapKısmı{
+
+    padding: 0.4rem;
+    border: 2px solid gray;
+    border-radius: 7%;
+    margin: 1rem;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 600px) {
+    .kurHesapKısmı{
+
+    
+    
+        display: flex;
+        flex-direction: column;
+        
+    
+  }
+
+  .hesaplama{
+   
+        border: none;
+   
+   
+
+}
+
+
+
+
+
+
+
+
+
+}

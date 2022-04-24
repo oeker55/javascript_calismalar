@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <label for="yas"> Yaşınız</label> <input id="yas" type="number" max="55">
+    <label for="ogrenim">Öğreniminiz</label><input type="text" id="ogrenim" list="ogrenimlist"> 
+  <datalist id="ogrenimlist">
+      <option value="ilköğretim"></option>
+      <option value="Ortaöğretim"></option>
+      <option value="Lise"></option>
+      <option value="lisans"></option>
+      <option value="Yüksek Lisans"></option>
+  </datalist>
+    <input type="button" value="Onayla" id="button1" onclick="fonk()">
+    
+</body>
+</html>
