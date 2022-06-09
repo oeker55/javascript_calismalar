@@ -1,5 +1,5 @@
 let cumle = "galatasaray futbol takımı, Galatasaray Spor Kulübü'nün Süper Lig'de mücadele eden futbol takımıdır" ;
-//Yukarıda yazılı olan cümlenin ilk harfini büyütüp sonuna da . koyan fonksiyonu yapacağım
+//Yukarıda yazılı olan cümlenin ilk harfini büyütüp sonuna da nokta koyan fonksiyon
 
 const toUpperAndLastDot = (cumle) =>yeniCumle
 {
